@@ -1,0 +1,116 @@
+body {
+    font-size:200%
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #18c9e1;
+    color: #333;
+}
+
+header {
+    font-size: 700%;
+    background-color: #1bb5e3;
+    color: white;
+    text-align: center;
+    padding: 0rem 0;
+}
+
+h3 {
+    font-size: 100px; 
+    font-weight: bold; 
+    text-align: center; 
+    color: #333; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #2b91c4;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+.menu-grid, .admin-grid {
+    display: grid ;
+    grid-template-columns: repeat(7, 10fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.menu-item, .admin-member {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item, p {
+        font-size: 500%; 
+        line-height: 200%;
+    }
+
+    form {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    label {
+        font-size: 100px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #1b99dd;
+        border-radius: 4px;
+    }
+    
+   button {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .custom-button {
+        width: 25%; 
+        height: 100%; 
+        font-size: 500%; 
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+        
+
