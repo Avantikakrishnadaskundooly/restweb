@@ -28,6 +28,8 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+```
+home.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,7 +65,9 @@ Publish the website in the given URL.
     </footer>
 </body>
 </html>
-<!DOCTYPE html>
+
+ menu.html
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -164,6 +168,9 @@ Publish the website in the given URL.
     </footer>
 </body>
 </html>
+
+admin.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -224,6 +231,54 @@ Publish the website in the given URL.
     </footer>
 </body>
 </html>
+
+contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Restaurant Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="admin.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Address: 123 main Street, Chennai, India</p>
+            <p>Phone: +91 4512875620</p>
+            <p>Email: contact@blue's restaurant.com</p>
+        </section>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button class="custom-button">Submit</button>
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 developed and designed by Avantika . All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
 body {
     font-size:200%
     font-family: Arial, sans-serif;
@@ -337,52 +392,7 @@ nav ul li a {
     button:hover {
         background-color: #0056b3;
     }
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Restaurant Name</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="admin.html">Administration</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <p>Address: 123 main Street, Chennai, India</p>
-            <p>Phone: +91 4512875620</p>
-            <p>Email: contact@blue's restaurant.com</p>
-        </section>
-        <form action="#" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button class="custom-button">Submit</button>
-
-        </form>
-    </main>
-    <footer>
-        <p>&copy; 2024 developed and designed by Avantika . All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
-   
+```  
     
 ## OUTPUT:
 ![alt text](<home- restapp.png>)
